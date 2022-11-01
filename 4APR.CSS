@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+  }
+  .navbar-expand-lg .navbar-collapse {
+  }
+  #navbarDropdown {
+    color: white;
+  }
+  .download {
+    border: 1px solid white;
+    background-color: blue;
+    max-width: 12vw;
+    border-radius: 50px;
+    color: white;
+    padding: 0vh 4vw 0vh 0vh;
+  }
+  
+  
+.main-page{
+  background-color: #565656;
+}
+
+.event-img{
+  padding-left: 15vw;
+  padding-right: 16vw;
+  padding-top: 5vh;
+  margin: 0;
+  
+}
+
+
+#allevent-img{
+  width: 100%;
+ 
+}
+.show-img{
+  /* padding-top: 6vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 5vh; */
+  height: auto;
+  border: 2px solid blue;
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17%;
+  
+
+}
+
+/* -------------Style the image------------ */
+
+.img-1{
+  border: 1px solid red;
+}
+
+.img-2{
+  border: 1px solid red;
+}
+.img-3{
+  border: 1px solid red;
+}
+
+.img-4{
+  border: 1px solid red;
+  
+}
+
+/* .img-1,.img-2,.img-3,.img-4{
+  margin: 10px;
+} */
+
+.img-1 img{
+  width: 15vw;
+}
+.img-2 img{
+  width: 15vw;
+}
+.img-3 img{
+  width: 15vw;
+}
+.img-4 img{
+  width: 15vw;
+}
+
+/* --------------Style the Images Paragraph---------- */
+.date{
+  background-color: white;
+  width: 13vw;
+  padding: 1vw;
+
+
+}
+
+/* --------------Style the button ------------*/
+.date button{
+  background-color: #70a1ff;
+  border-radius: 20px;
+  width: 10vw;
+  margin-left: 20px;
+  border: none;
+  color: white;
+}
+
+/* --------------Style the Footer ------*/
+.footer{
+  background-color: rgb(20, 12, 12);
+  height: 10vh;
+
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

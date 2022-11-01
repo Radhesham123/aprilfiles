@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+.header{
+    background-color: aquamarine;
+    display: flex;
+    padding: 10px;
+    width: 90vw;
+}
+
+.logo{
+ color: white;
+ 
+}
+
+#sound-amp{
+    display: flex;
+    margin-left: 2vw;
+    padding: 20px;
+}
+.templates{
+    display: flex;
+    margin-left: 2vw;
+    padding: 20px;
+}
+
+.button{
+    background-color: 
+    #89c4f4;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 5vw;
+    border: none;
+    height: 60px;
+}
+/* .social-icons{
+    margin-left: 25vw;
+    padding-top: 5vh;
+    
+} */
+
+.social-icons {
+    width: 100%;
+    background-color: #555;
+  }
+  
+  .social-icons a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+
+/* .bg-image{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+.gallery{
+ max-width: 100%;
+ height: auto;
+ padding-left: 10vw;
+ padding-right: 10vw;
+ padding-top: 20px;
+
+}
+
+.show-img{
+    margin-top: 20px;
+    margin-left: 15vw;
+    height: auto;
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17%;
+    column-gap: 40px;
+    
+
+}
+
+/* -------------Style the image------------ */
+
+.img-1{
+    
+    
+}
+
+.img-2{
+    margin: 20px;
+     
+}
+.img-3{
+  
+    padding-right: 3vw;
+}
+
+.img-4{
+    
+    
+}
+
+.img-1,.img-2,.img-3,.img-4{
+    margin: 10px;
+} 
+
+.img-1 img{
+    width: 15vw;
+}
+.img-2 img{
+    width: 15vw;
+}
+.img-3 img{
+    width: 15vw;
+}
+.img-4 img{
+    width: 15vw;
+}
+
+/* --------------Style the Images Paragraph---------- */
+.date{
+    background-color: white;
+    width: 13vw;
+    padding: 1vw;
+
+
+}
+
+/* --------------Style the button ------------*/
+.date button{
+    background-color: #70a1ff;
+    border-radius: 20px;
+    width: 10vw;
+    margin-left: 20px;
+    border: none;
+    color: white;
+}
+
+/* --------------Style the Footer ------*/
+.footer{
+    background-color: rgb(20, 12, 12);
+    height: 10vh;
+
+}
+
+ /* ------------Start the Media Screen -------*/
+
+/* 
+@media only screen and (max-width:500px) {
+    #allevent-img{
+        width: 65%;
+        height: 25vh;
+}
+    .html{
+        width: 20vw;
+    }
+
+    .header{
+    
+        width: 20vw;
+    }
+    
+    .gittar{
+    
+        width: 10vw;
+    
+        
+    
+    }
+    
+    .sound{
+        
+        width: 3vw;
+    }
+    
+    .html{
+    
+        
+        width: 10vw;
+        
+    
+    
+    }
+    
+    .p-1{
+       width: 2vw;
+    }
+    .html option{
+        
+    }
+    
+    #btn{
+       
+    }
+    
+    
+    
+    .socialtop{
+        float: right;
+        
+    }
+    
+    .top-social{
+        padding: 44px 10vw;
+    }
+    
+    .top-social a{
+        padding: 10px;
+        color: blue;
+    }
+    
+    
+    
+} */
+
+
+
+@media ony screen and (max-width:500px) {
+
+    .social-icons{
+        width: 30%
+        
+    }
+    .button{
+        width: 10vw;
+    }
+}
